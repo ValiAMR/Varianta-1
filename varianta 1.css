@@ -43,7 +43,8 @@
     background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoBtiaXa8gZNoZHhyNTsGV3cganSrSCqnkRw&usqp=CAU);
     height: 100% !important;
     width: auto !important;
-    
+    background-repeat: no-repeat;
+    background-position:1vh;
   }
   .a{
     color: var(--text-light);
