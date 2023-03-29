@@ -1,3 +1,50 @@
-body{
-    background-color: aquamarine;
+:root{
+    --text-primary: #101d42;
+    --text-secondary: #fbb44c;
+    --text-dark: #2b2922;
+    --text-light: #eaeaea;
+    --text-white: #ffffff;
+    --bg-primary: #141e4c;
+    --bg-secondary: #dfedf5;
+    --bg-dark: #101d42;
+    --bg-light: #ffffff;
+    --button-color: #2bb686;
 }
+.container{
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+.imagineurs{
+    height: 200px;
+    width: auto;
+}
+.imaginesuperman{
+    height: 100px !important;
+    width: auto;
+}
+.animatie{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+  }
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  body{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoBtiaXa8gZNoZHhyNTsGV3cganSrSCqnkRw&usqp=CAU);
+    height: 100% !important;
+    width: auto !important;
+    
+  }
+  .a{
+    color: var(--text-light);
+  }
